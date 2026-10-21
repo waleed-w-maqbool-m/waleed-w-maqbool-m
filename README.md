@@ -20,8 +20,6 @@ I am a final-year Electrical Engineering student (Computer Engineering) at FAST-
 
 <p align="center"><img src="./assets/stack.svg" width="100%" alt="Python, PyTorch, scikit-learn, pandas, NumPy, Keras, Hugging Face, LangGraph, Ollama, Jupyter, Streamlit, Anaconda, DuckDB, SQLite, Kaggle, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, Firebase, Docker, GitHub Actions, C, C++, ESP32, Arduino, Git, Linux, GitHub, Cloudflare"></p>
 
-## Activity
-
-<p align="center"><img src="./profile-3d-contrib/profile-night-rainbow.svg" width="65%" alt="3D view of my GitHub contributions, regenerated daily"></p>
+<p align="center"><a href="mailto:wm.waleedmaqbool@gmail.com"><img src="./assets/status.svg" width="100%" alt="Final year at FAST-NUCES, graduating August 2027. Open to AI engineering and research roles, remote or on-site. Email me."></a></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:000000,35:0d0a02,70:7a5c12,100:d4af37" width="100%" alt="">
