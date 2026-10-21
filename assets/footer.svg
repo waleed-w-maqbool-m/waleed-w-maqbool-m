@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" role="img" aria-label="">
+<defs>
+<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0"><stop offset="0" stop-color="#000"/><stop offset=".35" stop-color="#0d0a02"/><stop offset=".7" stop-color="#7a5c12"/><stop offset="1" stop-color="#d4af37"/></linearGradient>
+<mask id="mb" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="100"><g transform="translate(0,100) scale(1,-1)"><path fill="#fff" d="M0,-10 L0,60 Q150,32 300,60 T600,60 T900,60 T1200,60 T1500,60 T1800,60 L1800,-10 Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="16s" repeatCount="indefinite"/></path></g></mask>
+<mask id="mf" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="100"><g transform="translate(0,100) scale(1,-1)"><path fill="#fff" d="M0,-10 L0,48 Q100,24 200,48 T400,48 T600,48 T800,48 T1000,48 T1200,48 T1400,48 T1600,48 T1800,48 L1800,-10 Z"><animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="10s" repeatCount="indefinite"/></path></g></mask>
+</defs>
+<rect width="1200" height="100" fill="url(#g)" opacity=".5" mask="url(#mb)"/>
+<rect width="1200" height="100" fill="url(#g)" mask="url(#mf)"/>
+</svg>
