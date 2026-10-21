@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="160" viewBox="0 0 920 160" role="img" aria-label="Key results: Stratum 60.9% execution accuracy, 47% fewer tokens, 66 hidden tests, 2.14% MAPE">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <style>
+      .card { fill: url(#bg); stroke: #334155; stroke-width: 1; }
+      .num { font: 700 44px 'Segoe UI', system-ui, -apple-system, sans-serif; }
+      .lbl { font: 600 14px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #e2e8f0; }
+      .sub { font: 400 12px 'Segoe UI', system-ui, -apple-system, sans-serif; fill: #94a3b8; }
+      .t { opacity: 0; animation: rise 0.8s ease-out forwards; }
+      .t1 { animation-delay: 0.0s; } .t2 { animation-delay: 0.15s; } .t3 { animation-delay: 0.3s; } .t4 { animation-delay: 0.45s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </defs>
+
+  <g class="t t1">
+    <rect class="card" x="0" y="0" width="215" height="160" rx="14"/>
+    <rect x="0" y="0" width="215" height="4" rx="2" fill="#60a5fa"/>
+    <text class="num" x="20" y="72" fill="#60a5fa">60.9%</text>
+    <text class="lbl" x="20" y="102">Stratum accuracy</text>
+    <text class="sub" x="20" y="124">baseline 23.9%, same model</text>
+  </g>
+
+  <g class="t t2">
+    <rect class="card" x="235" y="0" width="215" height="160" rx="14"/>
+    <rect x="235" y="0" width="215" height="4" rx="2" fill="#2dd4bf"/>
+    <text class="num" x="255" y="72" fill="#2dd4bf">-47%</text>
+    <text class="lbl" x="255" y="102">Tokens per question</text>
+    <text class="sub" x="255" y="124">5,817 to 3,095 on Chinook</text>
+  </g>
+
+  <g class="t t3">
+    <rect class="card" x="470" y="0" width="215" height="160" rx="14"/>
+    <rect x="470" y="0" width="215" height="4" rx="2" fill="#fbbf24"/>
+    <text class="num" x="490" y="72" fill="#fbbf24">66</text>
+    <text class="lbl" x="490" y="102">Hidden test cases</text>
+    <text class="sub" x="490" y="124">AI Development Team, 12 tasks</text>
+  </g>
+
+  <g class="t t4">
+    <rect class="card" x="705" y="0" width="215" height="160" rx="14"/>
+    <rect x="705" y="0" width="215" height="4" rx="2" fill="#a78bfa"/>
+    <text class="num" x="725" y="72" fill="#a78bfa">2.14%</text>
+    <text class="lbl" x="725" y="102">Demand forecast MAPE</text>
+    <text class="sub" x="725" y="124">905-day hold-out, naive 5.91%</text>
+  </g>
+</svg>
